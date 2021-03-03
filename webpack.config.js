@@ -20,9 +20,11 @@ module.exports = {
     ]
   },
   output: {
+    library: 'MaterialUI',
+    libraryExport: 'default',
+    libraryTarget: 'umd',
     filename: 'bundle.umd.js',
     path: path.resolve(__dirname, 'dist'),
-    libraryTarget: 'umd',
   },
   plugins: [
     new MiniCssExtractPlugin({

@@ -1,3 +1,4 @@
+import '@fullcalendar/common/main.css';
 import dayjs from 'dayjs';
 import FullCalendar from '@fullcalendar/react'
 import interactionPlugin from '@fullcalendar/interaction';
